@@ -7,4 +7,8 @@ class Dog
   def initialize(dog)
     @dog = dog
   end
+  
+  def self.all
+    @@all
+  end
 end
